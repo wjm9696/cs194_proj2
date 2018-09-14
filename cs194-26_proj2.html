@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora|Titillium+Web" rel="stylesheet">
+<title>Fall 2018 CS194-26 Project2</title>
+<link rel="stylesheet" href="index.css">
+
+
+
+</head>
+
+<body>
+
+<div class="main-container">
+
+
+
+	<div id="header">
+
+		<h1 class="title">Fall 2018 CS194-26 Project2</h1>
+		<div class="small_title">Building a Pinhole Camera</div>
+		<h4>Jieming Wei, Jingxi Huang, Tiancheng Cai</h4>
+	</div>
+
+
+	<div>
+		<h3>Overview</h3>
+		<p>In this project, we work in group of 3 to design a pinhole camera. A digital camera with a long exposure time is used to caputure the image formed on the screen opposite to the pinhole. </p>
+	</div>
+
+	<div>
+		<h3>Approach</h3>
+		<div>
+			<p>We use a shoebox to create the pinhole camera, with size 32 x 18 x 11cm. The design looks like the following:</p>
+			<div class="column_outer">
+				<div class="column_div"><img class="result_img" src="img/outside.jpeg"></div>
+				<div class="column_div"><img class="result_img" src="img/inside1.jpeg"></div>
+				<div class="column_div"><img class="result_img" src="img/inside2.jpeg"></div>
+			</div>
+			<div>
+				<p>1.We paste white paper as the screen, and paste black paper to the other faces to reduce reflection. </p>
+				<p>2.On the side opposite to the screen, we make a hole to accommodate the hood of the camera. We attached the camera to the hood when taking photos. </p>
+				<p>3.Next to the camera hole, we design a place where we can insert cardboards that has a pinhole of varying sizes. As shown in the picture, the cardboards can be inserted from the top. </p>
+				<p>4.To ensure the box is light-proof, we stick black tapes along the edges and aroud corners. </p>
+			</div>
+			<p>We try out pinholes with diameters of 1mm, 2.5mm and 4mm.</p>
+		</div>
+	</div>
+
+	<div>
+		<h3>Comparison of 1mm v.s. 2.5mm v.s. 4mm holes</h3>
+		<p>#TODO Add text here</p>
+		<h4>Scene 1 California Hall</h4>
+		<div class="column_outer">
+			<div>
+				<div class="column_div">1 mm</div>
+				<div class="column_div">2.5 mm</div>
+				<div class="column_div">4 mm</div>
+				<div class="after_box"></div>
+			</div>
+			<div>
+				<div class="column_div">
+					<img class="result_img" src="img/s1.jpg">
+				</div>
+				<div class="column_div">
+					<img class="result_img" src="img/m1.jpg">
+				</div>
+				<div class="column_div">
+					<img class="result_img" src="img/l1.jpg">
+				</div>
+				<div class="after_box"></div>
+			</div>
+			<div>
+				<div class="column_div">
+					<img class="result_img" src="img/s1_crop.jpg">
+				</div>
+				<div class="column_div">
+					<img class="result_img" src="img/m1_crop.jpg">
+				</div>
+				<div class="column_div">
+					<img class="result_img" src="img/l1_crop.jpg">
+				</div>
+				<div class="after_box"></div>
+			</div>
+		</div>
+
+		<h4>Scene 2 Sather Tower</h4>
+		<div class="column_outer">
+			<div>
+				<div class="column_div">1 mm</div>
+				<div class="column_div">2.5 mm</div>
+				<div class="column_div">4 mm</div>
+				<div class="after_box"></div>
+			</div>
+			<div>
+				<div class="column_div">
+					<img class="result_img" src="img/s2.jpg">
+				</div>
+				<div class="column_div">
+					<img class="result_img" src="img/m2.jpg">
+				</div>
+				<div class="column_div">
+					<img class="result_img" src="img/l2.jpg">
+				</div>
+				<div class="after_box"></div>
+			</div>
+			<div>
+				<div class="column_div">
+					<img class="result_img" src="img/s2_crop.jpg">
+				</div>
+				<div class="column_div">
+					<img class="result_img" src="img/m2_crop.jpg">
+				</div>
+				<div class="column_div">
+					<img class="result_img" src="img/l2_crop.jpg">
+				</div>
+				<div class="after_box"></div>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<h3>Analysis and Conclusion</h3>
+			<p>The 1mm pinhole looks the best (clearer), though dimmer. We use an exposure time of 30s. </p>
+			<h3>Additional results with 1mm pinhole</h3>
+			<p>#TODO Add text here</p>
+			<div class="column_outer">
+				<div class="column_div">
+					<img class="result_img" src="img/extra1.jpg">
+				</div >
+				<div class="column_div">
+					<img class="result_img" src="img/extra2.jpg">
+				</div>
+				<div class="column_div">
+					<img class="result_img" src="img/extra3.jpg">
+				</div>
+				<div class="column_div">
+					<img class="result_img" src="img/extra4.jpg">
+				</div>
+				<div class="column_div">
+					<img class="result_img" src="img/extra5.jpg">
+				</div>
+				<div class="column_div">
+					<img class="result_img" src="img/extra6.jpg">
+				</div>
+			</div>
+	</div>		
+
+	<div>
+		<h3>Bells and Whistles</h3>
+		<p>#TODO Add text here</p>
+		<div class="column_outer">
+			<div>
+				<div class="paint_column_div"><p>Uing pinhole camera</p></div>
+				<div class="paint_column_div"><p>Using digital camera</p></div>
+				<div class="after_box"></div>
+			</div>
+			<div>
+				<div class="paint_column_div">
+					<img class="result_img" src="img/paint1.jpg">
+				</div >
+				<div class="paint_column_div">
+					<img class="result_img" src="img/paint2.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
