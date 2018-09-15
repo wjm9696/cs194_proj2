@@ -14,6 +14,10 @@
  	padding-bottom: 10px;
 }
 
+.paint_column_div img{
+ 	padding-bottom: 60px;
+}
+
 .result_img {
 	width: 95%;
 	position: relative;
